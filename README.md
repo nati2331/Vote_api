@@ -1,0 +1,1 @@
+This is my final portfolio project. The Vote API allows authenticated users to vote on predefined options. It includes functionality such as preventing multiple votes from the same user, tallying votes, and returning the vote count in real time. This API will focus purely on the backend voting functionality, simplifying its design and implementation.
