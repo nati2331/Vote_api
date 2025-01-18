@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { fetchVotes } from '../api';
+import "../style/votelist.css";
 
 function VoteList() {
     const [votes, setVotes] = useState([]);

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { castVote } from '../api';
+import "../style/voteform.css";
 
 function VoteForm() {
     const [option, setOption] = useState('');
