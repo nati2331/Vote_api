@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "../style/VotingComponent.css";
 
 const VotingComponent = () => {
   // State to hold vote counts
