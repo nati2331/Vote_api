@@ -1,0 +1,58 @@
+/* General styling for the voting component */
+.voting-container {
+    text-align: center;
+    margin-top: 50px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header styling */
+  .voting-container h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Button container */
+  .voting-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  /* Button styling */
+  .voting-buttons button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  /* Hover effect for buttons */
+  .voting-buttons button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+  }
+  
+  /* Active effect for buttons */
+  .voting-buttons button:active {
+    background-color: #3e8e41;
+    transform: scale(1);
+  }
+  
+  /* Responsive design for smaller screens */
+  @media (max-width: 600px) {
+    .voting-buttons {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .voting-buttons button {
+      width: 80%;
+      margin: 0 auto;
+    }
+  }
+  
