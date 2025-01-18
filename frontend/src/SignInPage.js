@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './signin.css';  // Import the CSS file for styling
+import './style/signin.css';  // Import the CSS file for styling
 
 function SignInPage() {
   const [name, setName] = useState('');
